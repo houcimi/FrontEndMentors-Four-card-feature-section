@@ -100,3 +100,25 @@ body {
 .right .card {
     border-top: 4px solid var(--Blue);
 }
+@media (max-width:767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        width: 100%;
+    }
+    .header h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .header h1 small {
+        font-size: 20px
+    }
+    .header p {
+        font-size: 13px
+    }
+    .cards {
+        flex-direction: column;
+    }
+}
